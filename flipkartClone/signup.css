@@ -1,0 +1,121 @@
+nav{
+    background-color: blue;
+    height:60px;
+    
+}
+#nav{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 12px;
+   
+    
+}
+#nav1{
+    display: flex;
+    flex-direction:column;
+
+}
+#logo{
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    color:white;
+    font-weight:bolder;
+
+}
+#input_name{
+    border:none;
+    width:500px;
+    height:15px;
+    /* border:1px solid ; */
+    padding-left:12px;
+   
+    background-color: #f0f5ff;
+    font-size: 15px;
+    
+    
+
+    
+}
+.navtab{
+    align-items:center;
+    display:flex;
+    font-size:18px;
+    padding:10px;
+    border:none;
+
+}
+#searchbar{
+    background-color: #f0f5ff;
+    border-color: black;
+     height: 20px;
+     margin-top:10px;
+
+}
+button{
+    background-color:white;
+    height:40px;
+    width:80px;
+    margin-top:10px;
+    color:#2874f0;
+    border:none;
+}
+#categories{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+
+}
+#categories>div>img{
+    height:80px;
+    width:80px;
+}
+#categories>div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#outerbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    
+    
+}
+#innerbox{
+    display: flex;
+    background-color: white;
+    width:50%;
+    height:500px;
+    /* border-color: black; */
+}
+.leftinnerbox{
+    background-color: #2874f0;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.rightinnerbox{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top:70px;
+   
+    
+}
+input{
+    height:20px;
+    width:400px;
+    border-width:0 0 2px;
+    border-color:black;
+}
+input.focus{
+    outline:0;
+    border-width:0 0 2px;
+    border-color:black;
+}

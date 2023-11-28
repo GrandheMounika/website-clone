@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+    <link rel="stylesheet" href="./signup.css">
+    
+</head>
+<body>
+    <div id="container">
+
+    </div>
+    <nav>
+        <div id="nav">
+            <div id="nav1">
+                <span id="logo">Flipkart </span>
+                <span style="font-weight:500;font-size:15px;color:rgb(192, 187, 187);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style:italic;">Explore 
+                <span style="color:#ffcc20;">
+                    plus</span>
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/plus-brand-bc165b.svg" alt="plus_logo">
+                    </span>
+             </div>
+            <div class="navtab" id="searchbar">
+                <span >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Search Icon</title><path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </span>
+                <span>   
+                <input id="input_name" type="text" placeholder="Search for Products,Brands and More">
+                </span>
+                
+            </div>
+            <div class="navtab">
+                <!-- <span><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg" alt="Become a seller"></span> -->
+                <span style="font-size:18px;padding-left:7px;color:white;">Become a Seller</span>
+            </div>
+            <div class="navtab">
+                <!-- <span style="padding-right:10px; font-size:18px; border:none;"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-815786.svg " alt="Sign in"> -->
+    
+                </span>
+                <span style="color:white;">More</span>
+               </div>
+            <div class="navtab">
+                <!-- <span style="padding-right:10px;"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg " alt="Cart"></span> -->
+                <span style="color:white;">Cart</span>
+            </div>
+    
+        </div>
+    
+    </nav>
+    <div id="outerbox">
+        <div id="innerbox">
+            <div class="leftinnerbox">
+                <p style="margin-top:10px;font-weight:bold;font-size:35px;padding:12px;">Looks like you're new here!</p>
+                <p style="color:rgb(211, 204, 204);font-weight:500;font-size:18px;padding:12px;">Sign up with your mobile number to get started</p>
+                <span style="padding-top:80px;display:flex;justify-content:center;">
+                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png">
+                </span>
+            </div>
+            <div class="rightinnerbox">
+                <div>
+                    <input id="mobile" class="nobile" style="padding-top:20px;" type="text" placeholder="Enter Mobile Number">
+                    </div>
+                    <div>
+                    <input id="name" class="name"style="padding-top:20px;" type="text" placeholder="Enter your Name">
+                </div>
+                <div style="display: flex;justify-content: center;margin-top: 20px;">
+
+                    <input id="pass" class="password" type="password" placeholder="Enter Password"/>
+                </div>
+                <p style="color:gray;font-size:small;">By continuing, you agree to Filpkart's 
+                    <a href="#">Terms of Use </a> 
+                    and
+                     <a href="#">Privacy policy</a>
+                    </p>
+            
+            <div>
+            <button onclick="Signup()" style=" cursor:pointer;border:none;background-color:#fb641b;color:white;font-size:20px;width:400px; height:50px;">Request OTP</button>
+            </div>
+            <div style="padding-top:20px;">
+                <button
+                onclick="window.location.href='signin.html'" style="border-radius:5px; border:none;background-color:white;color:blue;width:400px;height:50px;box-shadow:1px 1px 1px 1px black ; opacity:80%;border-color:white;;">Existing User? Login</button>
+            </div>
+             
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+</html>
+<script src="./signup.js"></script>

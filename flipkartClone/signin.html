@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+  <div id="container"></div>
+  <nav>
+    <div id="nav">
+        <div id="nav1">
+            <span id="logo">Flipkart </span>
+            <span style="font-weight:500;font-size:15px;color:rgb(192, 187, 187);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style:italic;">Explore 
+            <span style="color:#ffcc20;">
+                plus</span>
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/plus-brand-bc165b.svg" alt="plus_logo">
+                </span>
+         </div>
+        <div class="navtab" id="searchbar">
+            <span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Search Icon</title><path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </span>
+            <span>   
+            <input id="input_name" type="text" placeholder="Search for Products,Brands and More">
+            </span>
+            
+        </div>
+        <button>Login</button>
+        <div class="navtab">
+            <!-- <span><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg" alt="Become a seller"></span> -->
+            <span style="font-size:18px;padding-left:7px;color:white;">Become a Seller</span>
+        </div>
+        <div class="navtab">
+            <!-- <span style="padding-right:10px; font-size:18px; border:none;"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-815786.svg " alt="Sign in"> -->
+
+            <!-- </span> -->
+            <span style="color:white;">More</span>
+           </div>
+        <div class="navtab">
+            <!-- <span style="padding-right:10px;"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg " alt="Cart"></span> -->
+            <span style="color:white;">Cart</span>
+        </div>
+
+    </div>
+
+</nav>
+
+  <div id="outerbox">
+    <div id="innerbox">
+           <div class="leftinnerbox">
+            <p class="para1" style="font-size:30px;font-weight:bold;margin-left:10px;">Login
+              </p>
+              <p class="para2" style="color:aliceblue;font-size:20px;margin-left:10px;">Get access to your Orders, Wishlist and Recommendations</p>
+           <div style="display: flex;flex-direction: column;align-items: center;justify-content: center;margin-top: 30px;width: 75%;">
+            <img style="margin-top:80px;display:flex;justify-content:center;margin-left:50px;" src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png" alt="hero_signup">
+           </div>
+            </div>
+           <div class="rightinnerbox">
+
+            <div style="display: flex;justify-content: center;margin-top: 20px;;border:none;">
+
+                <input id="mobile" class="mobile" type="text" placeholder="Enter Mobile Number"/>
+            </div>
+            <!-- <div style="display: flex;justify-content: center;margin-top: 20px;border:none;">
+
+                <input id="name" class="name" type="text" placeholder="Enter User Name"/>
+            </div> -->
+
+            <div style="display: flex;justify-content: center;margin-top: 20px;">
+
+                <input id="pass" class="password" type="password" placeholder="Enter Password"/>
+            </div>
+            <div style="margin-top: 20px;font-size:small;">
+                <p class="textm">By continuing, you agree to Flipkart's 
+                    <span style="color: blue;"> Terms of Use</span>
+                    and <span style="color: blue;">Privacy Policy.</span></p>
+            </div>
+            <div style="margin-top: 10px;display: flex;justify-content: center;">
+                <button onclick="Signin()" style="cursor: pointer;border: none;background-color: #FB641B;color: white;font-size: 20px;width: 90%;padding: 9px;border-radius: 5px;">Login</button>
+            </div>
+            <div style="margin-top: 10px;display: flex;justify-content: center;">
+                <button 
+                onclick="window.location.href='signup.html'" style="border: none;background-color: whitesmoke;color: #2874F0;;font-size: 15px;width: 90%;padding: 9px;border-radius: 5px">Not Existing User? Signup</button>
+            </div> 
+        </div>
+
+    </div>
+  </div>
+</body>
+</html>
+<script src="signin.js"></script>
+
+  
